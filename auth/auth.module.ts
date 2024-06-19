@@ -9,6 +9,8 @@ import { AzureADStrategy } from './strategies/azuread.strategy';
 import { JwtStrategy } from './strategies/jwt.strategy';
 import { PermissionsModule } from '../permissions/permissions.module';
 import { JWTPermissionsGuard } from './guards/jwt-permissions-guard/jwt-permissions.guard';
+import { JWTGuard } from './guards/jwt-permissions-guard/jwt-permissions.guard';
+
 
 
 
@@ -22,6 +24,7 @@ import { JWTPermissionsGuard } from './guards/jwt-permissions-guard/jwt-permissi
     JwtGuard,
     PermissionsGuard,
     JWTPermissionsGuard,
+	JWTGuard
   ],
   controllers: [AuthController],
   exports: [PassportModule, PermissionsModule, PermissionsGuard, JWTPermissionsGuard, JwtGuard, ApiKeyGuard],
