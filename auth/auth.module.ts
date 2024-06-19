@@ -9,7 +9,7 @@ import { AzureADStrategy } from './strategies/azuread.strategy';
 import { JwtStrategy } from './strategies/jwt.strategy';
 import { PermissionsModule } from '../permissions/permissions.module';
 import { JWTPermissionsGuard } from './guards/jwt-permissions-guard/jwt-permissions.guard';
-import { PermissionsGuard } from './guards/permissions-guard/permissions.guard';
+
 
 @Global()
 @Module({
