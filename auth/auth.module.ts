@@ -11,7 +11,7 @@ import { PermissionsModule } from '../permissions/permissions.module';
 import { JWTPermissionsGuard } from './guards/jwt-permissions-guard/jwt-permissions.guard';
 
 
-@Global()
+
 @Module({
   imports: [PassportModule, ConfigModule, PermissionsModule],
   providers: [
