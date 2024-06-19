@@ -6,7 +6,7 @@ import { PermissionsGuard } from '../permissions-guard/permissions.guard';
 export class JWTPermissionsGuard implements CanActivate {
   constructor(
     private jwtGuard: JwtGuard,
-    private permissionsGuard: PermissionsGuard,
+ 
   ) {}
 
   async canActivate(context: ExecutionContext): Promise<boolean> {
