@@ -15,5 +15,4 @@ export {
   EPermissionsRecepcionFacturasClientesCredito,
   EPermissionsGeneracionFacturasMiscelaneas,
   EPermissionsAmos,
-  EPermissionsUsers,
 } from './enums/modules-permissions.enum';
